@@ -41,7 +41,7 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('ACCOUNT_NAME').";AccountKey=".getenv('ACCOUNT_KEY');
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=dicodingappsweb;AccountKey=kjT4fY77kkcfKZ9S9RmjOgnHIT4joGLGhnx+ygXFcDYoWQsMiSYqjrMravoW+WCHyoerCeICPSi7GUgMky+x7g==;EndpointSuffix=core.windows.net";
 
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
